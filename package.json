@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/lisaymiller/zip_weather_project/issues"
   },
-  "homepage": "https://github.com/lisaymiller/zip_weather_project#readme"
+  "homepage": "https://github.com/lisaymiller/zip_weather_project#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
