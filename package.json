@@ -13,5 +13,13 @@
     "api"
   ],
   "author": "Lisa Miller",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisaymiller/zip_weather_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisaymiller/zip_weather_project/issues"
+  },
+  "homepage": "https://github.com/lisaymiller/zip_weather_project#readme"
 }
