@@ -1,0 +1,17 @@
+{
+  "name": "zipweather",
+  "version": "1.0.0",
+  "description": "zipcode weather project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "ajax",
+    "node",
+    "weather",
+    "api"
+  ],
+  "author": "Lisa Miller",
+  "license": "ISC"
+}
