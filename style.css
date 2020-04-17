@@ -1,6 +1,6 @@
 body {
 	background: url(Images/bckmapkid.jpg);
-	position: fixed center;
+	background-position: cover;
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: white;
 }
@@ -16,8 +16,6 @@ h1 {
   	font-size: 90px;
 }
 
-
-
 input {
   background: rgba(255,255,255,.9);
   border: none;
@@ -25,14 +23,15 @@ input {
   display: block;
   outline: none;
   width: 300px;
-  height: 450p;
+  height: 43px;
   top: 35px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 7px;
   color: #333;
   font-weight: bold;
-  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
-  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  font-size: 20px;
+  -webkit-box-shadow: 0 4px 15px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 15px 2px rgba(0,0,0,0.5);
 }
 
 ::-webkit-input-placeholder { color: #666;} 
@@ -47,8 +46,8 @@ footer {
 }
 
 .text-pop-up-bottom {
-	-webkit-animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: text-pop-up-bottom 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: text-pop-up-bottom 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes text-pop-up-bottom {
