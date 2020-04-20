@@ -1,7 +1,5 @@
-var Moment = require('moment');
+var moment = require("moment");
 
-var myfunc = setInterval(function(){
-	var time = new Moment(); 
-    console.log(time.format('h:mm:ss a')); 
-        clearInterval(myfunc);
-});
+// current date and time
+let m = moment().format();
+console.log(m);

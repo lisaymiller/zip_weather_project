@@ -24,8 +24,11 @@
   "homepage": "https://github.com/lisaymiller/zip_weather_project#readme",
   "dependencies": {
     "adapt-pkg-main": "^1.1.0",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
     "request": "^2.88.2",
-    "weather-app": "^1.0.5"
-  }
+    "response": "^0.18.0"
+  },
+  "devDependencies": {}
 }

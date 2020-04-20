@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Sets the page width to the size of the device and sets the zoom width to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
@@ -32,29 +32,55 @@
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Cutive+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 	
 
 	<title>Weather by Zipcode</title>
 	<link rel="shortcut icon" href="Images/favicon_io/favicon.ico"/>
-</head>
-<body>
 
+</head>
+
+<body id="page">
+	<div class="container-fluid">
 	<div class="jumbotron">
 	  <h1 class="text-pop-up-bottom">What's your weather?</h1>
 	</div>
-
-	<div class="bg">
-  		<input id="target "type="text" maxlength="5" placeholder="Please enter your zipcode..."/>
 	</div>
 
+	<div class="container-fluid">
+	<div class="bg">
+  		<input id="target" type="text" maxlength="5" placeholder="Please enter your zipcode"/>
+	</div>
+	</div>
+
+	<!-- Trigger/Open The Modal -->
+	<button id="myBtn" type="submit"><img src="images/clouds.png" style="height: 50px;"></button>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  	<div class="modal-content">
+	    	<div class="modal-header">
+	      	<span class="close">&times;</span>
+	      	<h2 id="header">Your weather forcast is...</h2>
+	    </div>
+	    	<div class="modal-body">
+	      	<p id="weather">Weather</p>
+	      	<p id="dateTime">Date, time.</p>
+	    	</div>
+	  	</div>
+	</div>
 	
 	<footer>
 		<span><i class="far fa-copyright"></i> 2020 Lisa Yevonne</span>
 	</footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="text/javascript"></script>
+
 <script src="index.js" charset="utf-8"></script>
-<!-- <script src="moment.js"></script> -->
-<script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+<script src="https://unpkg.com/moment" />
+<script src="test.js" charset="utf-8"></script>
+
 </body>
 </html>
